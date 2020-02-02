@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tambah Buyer Button</name>
+   <name>Tambah Supplier Button</name>
    <tag></tag>
-   <elementGuidId>94a70d8c-d3c7-4d75-9ed8-8112a218a3e2</elementGuidId>
+   <elementGuidId>ebb5e01b-fa6c-467e-85b2-6058147c44f4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '+ Tambah Buyer' or . = '+ Tambah Buyer')]</value>
+         <value>//*[@type = 'button' and (text() = '+ Tambah Supplier' or . = '+ Tambah Supplier')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,6 +24,6 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>+ Tambah Buyer</value>
+      <value>+ Tambah Supplier</value>
    </webElementProperties>
 </WebElementEntity>

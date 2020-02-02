@@ -61,8 +61,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'testaddbuyer1@grr.la'</initValue>
-      <name>new_email_buyer</name>
+      <initValue>'negative@case.xp'</initValue>
+      <name>email_negative_case</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -73,5 +73,20 @@
       <description></description>
       <initValue>'C:\\Users\\Meteor_PC\\Downloads\\mail.png'</initValue>
       <name>upload_image_KTP_buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'frengky@mymindstores.com'</initValue>
+      <name>email_supplier_already_registered</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Addbuyyer1@grr.la'</initValue>
+      <name>new_email_add_buyer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'addsupplier1@grr.la'</initValue>
+      <name>new_email_add_supplier</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

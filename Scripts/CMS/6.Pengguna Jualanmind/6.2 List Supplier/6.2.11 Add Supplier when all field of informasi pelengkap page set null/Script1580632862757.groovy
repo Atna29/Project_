@@ -33,9 +33,11 @@ WebUI.click(findTestObject('Object Repository/Admin/Pengguna/menu pengguna'), Fa
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Daftar buyer'), 0)
 
-WebUI.click(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer Button'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Menu daftar supplier'))
 
-WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_buyer)
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Tambah Supplier Button'))
+
+WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.email_negative_case)
 
 WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/password field'), 'asAS1234')
 
@@ -80,29 +82,20 @@ WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tamb
 
 WebUI.submit(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Informasi Utama - Button SELANJUTNYA'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/jenis usaha - UD,PD,TB'), 5)
-
-'Choose type of buyer'
-WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/jenis usaha - UD,PD,TB'))
-
-'Input NPWP number'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/No NPWP'), '1234567890123456')
-
-'Input KTP number'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/No KTP'), '1234567890123456')
-
-'Upload image NPWP'
-WebUI.uploadFile(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Upload image NPWP'), GlobalVariable.upload_image_npwp_buyer)
-
-'Upload image KTP'
-WebUI.uploadFile(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Upload image KTP'), GlobalVariable.upload_image_KTP_buyer)
-
 WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Button TAMBAH'), 5)
 
 'Submit TAMBAH'
 WebUI.submit(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Button TAMBAH'))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/No NPWP'), 5)
 
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field no npwp - No. NPWP tidak boleh kosong'), 'No. NPWP tidak boleh kosong')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field no ktp - No. KTP tidak boleh kosong'), 'No. KTP tidak boleh kosong')
+
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field upload npwp - Ukuran gambar harus dibawah 5MB'), 'Ukuran gambar harus dibawah 5MB')
+
+WebUI.verifyElementText(findTestObject('Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field upload ktp - Ukuran gambar harus dibawah 5MB'), 'Ukuran gambar harus dibawah 5MB')
 
 WebUI.takeScreenshot()
 

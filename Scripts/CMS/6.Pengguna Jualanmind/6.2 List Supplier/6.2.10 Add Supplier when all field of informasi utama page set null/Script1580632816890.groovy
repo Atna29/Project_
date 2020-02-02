@@ -33,24 +33,17 @@ WebUI.click(findTestObject('Object Repository/Admin/Pengguna/menu pengguna'), Fa
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Daftar buyer'), 0)
 
-WebUI.click(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer Button'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Menu daftar supplier'))
 
-WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_buyer)
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Tambah Supplier Button'))
+
+WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.email_negative_case)
 
 WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/password field'), 'asAS1234')
 
 WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/confirm password field'), 'asAS1234')
 
 WebUI.click(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/button selanjutnya'))
-
-'Nama usaha field'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Nama usaha'), 'Test buyer')
-
-'No. HP field'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/no, Handphone'), '1234567890')
-
-'alamat field'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Alamat'), 'Jalan pegangsaan timur')
 
 'Provindi field'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Provinsi'), '31', false)
@@ -64,45 +57,28 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Pengguna/Dafta
 'kelurahan field'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Kelurahan'), '3174020004', false)
 
-'kode pos'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/kode pos'), '12345')
-
 WebUI.scrollToElement(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Informasi Utama - Button SELANJUTNYA'), 5)
 
 'bank field'
 WebUI.selectOptionByValue(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/bank'), '65', false)
 
-'no rekening field'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/No rekening'), '1234567890')
-
-'nama rekening field'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/nama rekening'), 'Testing buyer')
-
 WebUI.submit(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Informasi Utama - Button SELANJUTNYA'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/jenis usaha - UD,PD,TB'), 5)
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field nama rekening - Nama Pemilik Rekening tidak boleh kosong'), 'Nama Pemilik Rekening tidak boleh kosong')
 
-'Choose type of buyer'
-WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/jenis usaha - UD,PD,TB'))
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field no rekening - No. Rekening tidak boleh kosong'), 'No. Rekening tidak boleh kosong')
 
-'Input NPWP number'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/No NPWP'), '1234567890123456')
+WebUI.takeScreenshot()
 
-'Input KTP number'
-WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/No KTP'), '1234567890123456')
+WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi Utama/Nama usaha'), 5)
 
-'Upload image NPWP'
-WebUI.uploadFile(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Upload image NPWP'), GlobalVariable.upload_image_npwp_buyer)
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field nama usaha - Nama Usaha tidak boleh kosong'), 'Nama Usaha tidak boleh kosong')
 
-'Upload image KTP'
-WebUI.uploadFile(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Upload image KTP'), GlobalVariable.upload_image_KTP_buyer)
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field no hp - No handphone tidak boleh kosong'), 'No handphone tidak boleh kosong')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Button TAMBAH'), 5)
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field alamat - Alamat tidak boleh kosong'), 'Alamat tidak boleh kosong')
 
-'Submit TAMBAH'
-WebUI.submit(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/Button TAMBAH'))
-
-
+WebUI.verifyElementText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Validasi/Tambah Buyer/response field kodek pos - Kode Pos tidak boleh kosong'), 'Kode Pos tidak boleh kosong')
 
 WebUI.takeScreenshot()
 

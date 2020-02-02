@@ -33,9 +33,11 @@ WebUI.click(findTestObject('Object Repository/Admin/Pengguna/menu pengguna'), Fa
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Daftar buyer'), 0)
 
-WebUI.click(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer Button'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Menu daftar supplier'))
 
-WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_buyer)
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Tambah Supplier Button'))
+
+WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_supplier)
 
 WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/password field'), 'asAS1234')
 
@@ -83,7 +85,7 @@ WebUI.submit(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tamba
 WebUI.scrollToElement(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/jenis usaha - UD,PD,TB'), 5)
 
 'Choose type of buyer'
-WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/jenis usaha - UD,PD,TB'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/jenis usaha - Foreign Company'))
 
 'Input NPWP number'
 WebUI.setText(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi lengkap/No NPWP'), '1234567890123456')

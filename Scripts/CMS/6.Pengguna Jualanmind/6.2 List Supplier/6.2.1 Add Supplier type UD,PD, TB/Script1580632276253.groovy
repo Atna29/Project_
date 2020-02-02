@@ -33,9 +33,11 @@ WebUI.click(findTestObject('Object Repository/Admin/Pengguna/menu pengguna'), Fa
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Daftar buyer'), 0)
 
-WebUI.click(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer Button'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Menu daftar supplier'))
 
-WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_buyer)
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Tambah Supplier Button'))
+
+WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_supplier)
 
 WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/password field'), 'asAS1234')
 

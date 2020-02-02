@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tambah Buyer Button</name>
+   <name>Menu daftar supplier</name>
    <tag></tag>
-   <elementGuidId>94a70d8c-d3c7-4d75-9ed8-8112a218a3e2</elementGuidId>
+   <elementGuidId>004f8725-cab3-45c0-8477-a7032344d2ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '+ Tambah Buyer' or . = '+ Tambah Buyer')]</value>
+         <value>(//*[(text() = 'Daftar Supplier' or . = 'Daftar Supplier')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>+ Tambah Buyer</value>
+      <value>(//*[(text() = 'Daftar Supplier' or . = 'Daftar Supplier')])[2]</value>
    </webElementProperties>
 </WebElementEntity>

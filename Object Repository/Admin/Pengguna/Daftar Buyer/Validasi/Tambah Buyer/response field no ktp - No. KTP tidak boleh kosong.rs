@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tambah Buyer Button</name>
+   <name>response field no ktp - No. KTP tidak boleh kosong</name>
    <tag></tag>
-   <elementGuidId>94a70d8c-d3c7-4d75-9ed8-8112a218a3e2</elementGuidId>
+   <elementGuidId>0dc948ef-35c9-4b01-b192-5aa4f6f9cca5</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>/html/body/div[7]/div/div[1]/div/div/div[2]/div/div/div[1]/form/div[1]/div[1]/span</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '+ Tambah Buyer' or . = '+ Tambah Buyer')]</value>
+         <value>//*[@class = 'warning-validation' and (text() = 'No. KTP tidak boleh kosong' or . = 'No. KTP tidak boleh kosong')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +19,15 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>class</name>
       <type>Main</type>
-      <value>button</value>
+      <value>warning-validation</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>+ Tambah Buyer</value>
+      <value>No. KTP tidak boleh kosong</value>
    </webElementProperties>
 </WebElementEntity>

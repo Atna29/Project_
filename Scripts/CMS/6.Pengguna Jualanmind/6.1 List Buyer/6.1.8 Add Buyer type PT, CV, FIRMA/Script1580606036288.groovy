@@ -35,7 +35,7 @@ WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/Pengguna/Daf
 
 WebUI.click(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer Button'))
 
-WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_buyer)
+WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/email field'), GlobalVariable.new_email_add_buyer)
 
 WebUI.setText(findTestObject('Admin/Pengguna/Daftar Buyer/Tambah Buyer/Informasi dasar/password field'), 'asAS1234')
 

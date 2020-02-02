@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tambah Buyer Button</name>
+   <name>response field upload npwp - Ukuran gambar harus dibawah 5MB</name>
    <tag></tag>
-   <elementGuidId>94a70d8c-d3c7-4d75-9ed8-8112a218a3e2</elementGuidId>
+   <elementGuidId>4ec2d861-15ae-4c0a-8aa5-083cf4c94300</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@type = 'button' and (text() = '+ Tambah Buyer' or . = '+ Tambah Buyer')]</value>
+         <value>(//*[@text() = 'Ukuran gambar harus dibawah 5MB' or . = 'Ukuran gambar harus dibawah 5MB'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,15 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>button</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>+ Tambah Buyer</value>
+      <value>(//*[@text() = 'Ukuran gambar harus dibawah 5MB' or . = 'Ukuran gambar harus dibawah 5MB'])[1]</value>
    </webElementProperties>
 </WebElementEntity>

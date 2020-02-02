@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6.1.10 Add buyer when all field of informasi utama page set null</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>207d45d5-d34f-4a98-856b-e09280c2ede8</testCaseGuid>
+</TestCaseEntity>
