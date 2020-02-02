@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>menu pengguna</name>
+   <name>Button Search</name>
    <tag></tag>
-   <elementGuidId>03b1ab04-5625-4228-acd4-4627cc2ef2ab</elementGuidId>
+   <elementGuidId>f344a935-f9be-470a-b7e4-74932aa4b589</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'pengguna']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@type = 'button' and (text() = 'Cari' or . = 'Cari')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>phri-user w-100 py-3 px-4 xh-highlight</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>pengguna</value>
+      <value>Cari</value>
    </webElementProperties>
 </WebElementEntity>

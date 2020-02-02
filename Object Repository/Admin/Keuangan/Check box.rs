@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>menu pengguna</name>
+   <name>Check box</name>
    <tag></tag>
-   <elementGuidId>03b1ab04-5625-4228-acd4-4627cc2ef2ab</elementGuidId>
+   <elementGuidId>9957361b-560f-45fe-a861-12412cf3321f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'pengguna']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>(//*[@type = 'checkbox'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -19,15 +15,22 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>phri-user w-100 py-3 px-4 xh-highlight</value>
+      <value>checkbox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>146</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>pengguna</value>
+      <value>(//*[@type = 'checkbox'])[1]</value>
    </webElementProperties>
 </WebElementEntity>

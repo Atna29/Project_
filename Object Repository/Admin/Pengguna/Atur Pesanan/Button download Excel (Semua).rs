@@ -1,33 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>menu pengguna</name>
+   <name>Button download Excel (Semua)</name>
    <tag></tag>
-   <elementGuidId>03b1ab04-5625-4228-acd4-4627cc2ef2ab</elementGuidId>
+   <elementGuidId>b9285a1b-cfe4-44ff-af86-e0c846cd400d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'pengguna']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@type = 'button' and (text() = 'Excel (Semua)' or . = 'Excel (Semua)')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>type</name>
       <type>Main</type>
-      <value>phri-user w-100 py-3 px-4 xh-highlight</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>pengguna</value>
+      <value>Excel (Semua)</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>menu pengguna</name>
+   <name>Menu Keuangan</name>
    <tag></tag>
-   <elementGuidId>03b1ab04-5625-4228-acd4-4627cc2ef2ab</elementGuidId>
+   <elementGuidId>3cc8c043-cfeb-4b4b-b494-14b141b13e23</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'pengguna']</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
+         <value>//*[@id = 'keuangan']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,13 +17,13 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>phri-user w-100 py-3 px-4 xh-highlight</value>
+      <value> phri-user w-100  py-3 px-4</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>pengguna</value>
+      <value>keuangan</value>
    </webElementProperties>
 </WebElementEntity>
