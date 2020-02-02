@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Sayur_fas fa-ellipsis-v action</name>
+   <tag></tag>
+   <elementGuidId>6f243b9c-fb63-42d6-86b0-a28dc4f2ffd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='action-menu']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fas fa-ellipsis-v action</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;App&quot;]/div[@class=&quot;container-fluid pb-5 header pt-1&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[@class=&quot;col-md-10 base-area  border-right border-bottom&quot;]/div[@class=&quot;base-sub&quot;]/div[@class=&quot;py-5 category&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;container data-viewer&quot;]/div[@class=&quot;row data-viewer-body&quot;]/div[@class=&quot;col-md-12&quot;]/table[@class=&quot;parent-tabkat table table-borderless table-sm&quot;]/tbody[1]/tr[@class=&quot;row-data border-bottom&quot;]/td[@class=&quot;text-right&quot;]/div[1]/a[@id=&quot;action-menu&quot;]/i[@class=&quot;fas fa-ellipsis-v action&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='action-menu']/i</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+   </webElementXpaths>
+</WebElementEntity>

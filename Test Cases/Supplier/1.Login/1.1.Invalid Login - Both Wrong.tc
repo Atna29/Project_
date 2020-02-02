@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Condition : email invalid,password invalid
+Can't Login</description>
+   <name>1.1.Invalid Login - Both Wrong</name>
+   <tag>Login, Invalid</tag>
+   <comment></comment>
+   <testCaseGuid>890f5e83-cfb9-4e7c-a0bd-f0a328721af9</testCaseGuid>
+</TestCaseEntity>
