@@ -13,3 +13,14 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser(GlobalVariable.base_url)
+
+WebUI.maximizeWindow()
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Supplier/Login Page/Button Masuk'), 30)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Login Page/Input email'), GlobalVariable.sup_email_valid)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Login Page/input password'), GlobalVariable.sup_pass_valid)
+
+WebUI.click(findTestObject('Admin/Page_Admin_Login/button_MASUK'))
