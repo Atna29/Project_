@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Alamat</name>
+   <name>button Search</name>
    <tag></tag>
-   <elementGuidId>b1a1d911-9037-4ceb-876c-92805f8dadda</elementGuidId>
+   <elementGuidId>13bbbcde-960b-4bc4-bc9d-be5962a5e6f1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@name = 'address'])[1]</value>
+         <value>//button[.='Search']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@name = 'address'])[1]</value>
+      <value>//button[.='Search']</value>
    </webElementProperties>
 </WebElementEntity>

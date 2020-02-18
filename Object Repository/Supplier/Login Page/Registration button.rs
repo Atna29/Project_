@@ -7,16 +7,23 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@text='Daftar Sekarang']</value>
+         <value>//*[(text() = 'Daftar Sekarang' or . = 'Daftar Sekarang')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@text='Daftar Sekarang']</value>
+      <value>//*[@class = 'regis-info' and (text() = 'Daftar Sekarang' or . = 'Daftar Sekarang')]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daftar Sekarang</value>
    </webElementProperties>
 </WebElementEntity>

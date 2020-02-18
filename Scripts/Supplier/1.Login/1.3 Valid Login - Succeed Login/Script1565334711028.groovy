@@ -14,30 +14,14 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser(GlobalVariable.base_url)
 
-WebUI.navigateToUrl(GlobalVariable.base_url + GlobalVariable.sup_login_url)
+WebUI.maximizeWindow()
 
-//WebUI.navigateToUrl("https://supplier.devmind3.net/login")
-WebUI.delay(GlobalVariable.delay_3)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Supplier/Login Page/Button Masuk'), 30)
 
-WebUI.setText(findTestObject('null'), GlobalVariable.sup_email_valid)
+WebUI.setText(findTestObject('Object Repository/Supplier/Login Page/Input email'), GlobalVariable.sup_email_valid)
 
-WebUI.setText(findTestObject('null'), GlobalVariable.sup_pass_valid)
+WebUI.setText(findTestObject('Object Repository/Supplier/Login Page/input password'), GlobalVariable.sup_pass_valid)
 
-WebUI.delay(GlobalVariable.delay_3)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.click(findTestObject('null'))
-
-WebUI.delay(GlobalVariable.delay_3)
-
-WebUI.click(findTestObject('null'))
-
-WebUI.set
-
-WebUI.delay(GlobalVariable.delay_3)
-
-WebUI.closeBrowser()
-
+WebUI.click(findTestObject('Admin/Page_Admin_Login/button_MASUK'))

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//button[@text='SELANJUTNYA'])[2]</value>
+         <value>(//button[@type='submit' and (text () = 'SELANJUTNYA' or .='SELANJUTNYA')])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//button[@text='SELANJUTNYA'])[2]</value>
+      <value>(//button[@type='submit' and (text () = 'SELANJUTNYA' or .='SELANJUTNYA')])[2]</value>
    </webElementProperties>
 </WebElementEntity>

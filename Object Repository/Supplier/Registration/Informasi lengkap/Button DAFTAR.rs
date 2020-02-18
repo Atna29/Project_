@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button TAMBAH</name>
+   <name>Button DAFTAR</name>
    <tag></tag>
    <elementGuidId>16255821-ebf6-485c-98f0-6cfe9ea1b432</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//button[@type = 'submit' and (text() = 'TAMBAH' or . = 'TAMBAH')]</value>
+         <value>//button[@type = 'submit' and (text() = 'DAFTAR' or . = 'DAFTAR')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -38,6 +38,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'TAMBAH' or . = 'TAMBAH')]</value>
+      <value>//button[@type = 'submit' and (text() = 'DAFTAR' or . = 'DAFTAR')]</value>
    </webElementProperties>
 </WebElementEntity>

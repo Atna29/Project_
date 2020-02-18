@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Alamat</name>
+   <name>Select category</name>
    <tag></tag>
-   <elementGuidId>b1a1d911-9037-4ceb-876c-92805f8dadda</elementGuidId>
+   <elementGuidId>afec0756-e931-4b02-be52-3d969870e829</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@name = 'address'])[1]</value>
+         <value>(//input[@id='category'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@name = 'address'])[1]</value>
+      <value>(//input[@id='category'])[1]</value>
    </webElementProperties>
 </WebElementEntity>
