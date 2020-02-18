@@ -3,7 +3,7 @@
    <description></description>
    <name>Filter Subcategory</name>
    <tag></tag>
-   <elementGuidId>60c6a382-c581-423a-a04f-a55387fba109</elementGuidId>
+   <elementGuidId>7a187949-dafa-468e-9e8b-a9d0f5237e7e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

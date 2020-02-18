@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Subcategory</name>
+   <name>upload image</name>
    <tag></tag>
-   <elementGuidId>60c6a382-c581-423a-a04f-a55387fba109</elementGuidId>
+   <elementGuidId>34705a77-cd17-4a45-9533-eea1adecae74</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;subcategory&quot;]</value>
+         <value>(//*[@class='image-wrap add-btn'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;subcategory&quot;]</value>
+      <value>(//*[@class='image-wrap add-btn'])[1]</value>
    </webElementProperties>
 </WebElementEntity>

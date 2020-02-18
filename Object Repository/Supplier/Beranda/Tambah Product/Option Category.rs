@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Subcategory</name>
+   <name>Option Category</name>
    <tag></tag>
-   <elementGuidId>60c6a382-c581-423a-a04f-a55387fba109</elementGuidId>
+   <elementGuidId>03c10b26-9bcb-48cf-8a3f-39ceb082b35d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;subcategory&quot;]</value>
+         <value>//*[@id=&quot;category&quot;]/span[2]/ul/li[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;subcategory&quot;]</value>
+      <value>//*[@id=&quot;category&quot;]/span[2]/ul/li[2]</value>
    </webElementProperties>
 </WebElementEntity>

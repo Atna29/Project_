@@ -14,6 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url)
 
@@ -31,10 +32,22 @@ WebUI.click(findTestObject('Object Repository/Supplier/Login Page/Button Masuk')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Beranda/Search'), 'Tomat')
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Menu/QA Supplier'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Select category'))
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Profile/Lihat Profile'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Option Category'))
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Profile/Informasi Utama'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/button Search'))
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Profile/informasi utama - button EDIT profile'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Profile/nama usaha'))
+
+WebUI.sendKeys(findTestObject('Object Repository/Supplier/Beranda/Profile/nama usaha'), Keys.chord(Keys.CONTROL, '+', 'A', 
+        Keys.DELETE))
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Beranda/Profile/nama usaha'), 'QA Suplier')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Supplier/Beranda/Profile/informasi utama - SIMPAN'), 5)
+
+WebUI.submit(findTestObject('Object Repository/Supplier/Beranda/Profile/informasi utama - SIMPAN'))
+

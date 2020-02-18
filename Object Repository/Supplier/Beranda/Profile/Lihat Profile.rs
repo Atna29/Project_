@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Subcategory</name>
+   <name>Lihat Profile</name>
    <tag></tag>
-   <elementGuidId>60c6a382-c581-423a-a04f-a55387fba109</elementGuidId>
+   <elementGuidId>59c332f2-e11b-4296-a284-3469c0583732</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;subcategory&quot;]</value>
+         <value>(//*[text () = 'lihat profile' or .='lihat profile'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;subcategory&quot;]</value>
+      <value>(//*[text () = 'lihat profile' or .='lihat profile'])[1]</value>
    </webElementProperties>
 </WebElementEntity>

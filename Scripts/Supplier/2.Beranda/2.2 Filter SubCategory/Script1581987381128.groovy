@@ -37,4 +37,8 @@ WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Select category')
 
 WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Option Category'))
 
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Filter Subcategory'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Option SubCategory'))
+
 WebUI.click(findTestObject('Object Repository/Supplier/Beranda/button Search'))

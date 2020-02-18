@@ -31,10 +31,6 @@ WebUI.click(findTestObject('Object Repository/Supplier/Login Page/Button Masuk')
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Supplier/Beranda/Search'), 'Tomat')
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Menu/Tambah Product'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Select category'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Option Category'))
-
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/button Search'))
