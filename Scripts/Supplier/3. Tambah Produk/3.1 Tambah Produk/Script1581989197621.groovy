@@ -33,4 +33,46 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Menu/Tambah Product'))
 
+WebUI.uploadFile(findTestObject('Object Repository/Supplier/Tambah Produk/Upload Gambar'), GlobalVariable.upload_image_produk)
 
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/Nama Produk'), 'Kentang Lokal')
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/category'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/Category - Sayur'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/Subcategory'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/SubCategory - Sayur Lokal'))
+
+WebUI.scrollToElement(findTestObject('Object Repository/Supplier/Tambah Produk/panjang'), 5)
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/harga'), '150')
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/Satuan'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/satuan - gram'))
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/Stock'), '500')
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/Deskripsi'), 'Kentang Lokal Kualitas terbaik')
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/panjang'), '15')
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/Lebar'), '10')
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/Tinggi'), '10')
+
+WebUI.setText(findTestObject('Object Repository/Supplier/Tambah Produk/Berat (gram)') ,'50')
+
+WebUI.scrollToElement(findTestObject('Object Repository/Supplier/Tambah Produk/Button Tambah'), 5)
+
+WebUI.check(findTestObject('Object Repository/Supplier/Tambah Produk/Check Self delivery'))
+
+WebUI.check(findTestObject('Object Repository/Supplier/Tambah Produk/Check Virtual Account'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/Button Tambah'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Tambah Produk/Button Tambah Confirmation'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Supplier/Tambah Produk/Pop Up/wording Pop UP'), 'Produk anda sedang masuk pada tahap evaluasi')

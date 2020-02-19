@@ -89,4 +89,9 @@
       <initValue>'addsupplier1@grr.la'</initValue>
       <name>new_email_add_supplier</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C:\\Users\\Meteor_PC\\Downloads\\kentang.jpg'</initValue>
+      <name>upload_image_produk</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
