@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Deactive Buyer</name>
+   <name>button YA Delete</name>
    <tag></tag>
-   <elementGuidId>5b737a0a-57ee-4def-8262-7206f43602ba</elementGuidId>
+   <elementGuidId>3b4bab4e-6b54-4bdb-928d-de9050c60456</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class='fas fa-trash-alt bg-danger p-2 rounded-circle text-white m-2 ' or @class='fas fa-trash-alt bg-danger p-2 rounded-circle text-white m-2'])[1]</value>
+         <value>//button[.='YA']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class='fas fa-trash-alt bg-danger p-2 rounded-circle text-white m-2 ' or @class='fas fa-trash-alt bg-danger p-2 rounded-circle text-white m-2'])[1]</value>
+      <value>//button[.='YA']</value>
    </webElementProperties>
 </WebElementEntity>

@@ -27,12 +27,16 @@ WebUI.setText(findTestObject('Admin/Page_Admin_Login/input_Kata Sandi_password')
 
 WebUI.click(findTestObject('Admin/Page_Admin_Login/button_MASUK'))
 
+WebUI.delay(3)
+
 WebUI.waitForElementAttributeValue(findTestObject('Object Repository/Admin/Pengguna/menu pengguna'), 'id', 'pengguna', 0)
 
 WebUI.click(findTestObject('Object Repository/Admin/Pengguna/menu pengguna'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Daftar buyer'), 0)
 
-WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Supplier/Menu daftar supplier'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/page 3'))
 
-WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Action View Detail'))
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/Deactive Buyer'))
+
+WebUI.click(findTestObject('Object Repository/Admin/Pengguna/Daftar Buyer/button YA Delete'))
