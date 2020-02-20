@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Filter Subcategory</name>
+   <name>Check Sedang Proses - Sedang Dikirim</name>
    <tag></tag>
-   <elementGuidId>7a187949-dafa-468e-9e8b-a9d0f5237e7e</elementGuidId>
+   <elementGuidId>03f6a239-ea28-4d5d-a62d-de35a6a915b5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;subcategory&quot;]</value>
+         <value>(//*[@class = 'checkmark'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;subcategory&quot;]</value>
+      <value>(//*[@class = 'checkmark'])[1]</value>
    </webElementProperties>
 </WebElementEntity>

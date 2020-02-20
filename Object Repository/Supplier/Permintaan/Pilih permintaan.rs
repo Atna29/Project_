@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Option Category</name>
+   <name>Pilih permintaan</name>
    <tag></tag>
-   <elementGuidId>03c10b26-9bcb-48cf-8a3f-39ceb082b35d</elementGuidId>
+   <elementGuidId>c614fc66-2c33-4e2f-b786-2e16d7e09130</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;category&quot;]/span[2]/ul/li[2]</value>
+         <value>//*[@id='request-list']//*[@class = 'list']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;category&quot;]/span[2]/ul/li[2]</value>
+      <value>//*[@id='request-list']//*[@class = 'list']</value>
    </webElementProperties>
 </WebElementEntity>

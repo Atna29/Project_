@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Select category</name>
+   <name>Nottifikasi - Penawaran</name>
    <tag></tag>
-   <elementGuidId>b102d02b-a99a-4a0f-99f2-7ed2227ef202</elementGuidId>
+   <elementGuidId>1d8d2e08-a720-4370-b686-4ea272937bf0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//input[@id='category'])[1]</value>
+         <value>(//*[@class = 'list-bar'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//input[@id='category'])[1]</value>
+      <value>(//*[@class = 'list-bar'])[2]</value>
    </webElementProperties>
 </WebElementEntity>

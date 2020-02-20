@@ -35,19 +35,3 @@ WebUI.delay(3)
 WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Menu/QA Supplier'))
 
 WebUI.click(findTestObject('Supplier/Profile/Lihat Profile'))
-
-WebUI.click(findTestObject('Supplier/Profile/Informasi Utama'))
-
-WebUI.click(findTestObject('Supplier/Profile/informasi utama - button EDIT profile'))
-
-WebUI.click(findTestObject('Supplier/Profile/nama usaha'))
-
-WebUI.sendKeys(findTestObject('Supplier/Profile/nama usaha'), Keys.chord(Keys.CONTROL, '+', 'A', 
-        Keys.DELETE))
-
-WebUI.setText(findTestObject('Supplier/Profile/nama usaha'), 'QA Suplier')
-
-WebUI.scrollToElement(findTestObject('Supplier/Profile/informasi utama - SIMPAN'), 5)
-
-WebUI.submit(findTestObject('Supplier/Profile/informasi utama - SIMPAN'))
-
