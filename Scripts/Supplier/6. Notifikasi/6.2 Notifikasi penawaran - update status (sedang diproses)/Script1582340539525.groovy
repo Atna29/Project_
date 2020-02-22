@@ -14,7 +14,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser(GlobalVariable.base_url)
 
@@ -32,18 +31,18 @@ WebUI.click(findTestObject('Object Repository/Supplier/Login Page/Button Masuk')
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Menu/QA Supplier'))
+WebUI.click(findTestObject('Object Repository/Supplier/Beranda/Menu/Notifikasi'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Transaksi/Menu Transaksi'))
+WebUI.click(findTestObject('Object Repository/Supplier/Notifikasi/Nottifikasi - Penawaran'))
 
-'Start date'
-WebUI.click(findTestObject('Object Repository/Supplier/Transaksi/Awal Bulan'))
+WebUI.scrollToElement(findTestObject('Object Repository/Supplier/Notifikasi/Penawaran - Pilih Terbayar'), 0)
 
-WebUI.click(findTestObject('Supplier/Transaksi/choose start date Feb'))
+WebUI.click(findTestObject('Object Repository/Supplier/Notifikasi/Penawaran - Pilih Terbayar'))
 
-'End date'
-WebUI.click(findTestObject('Object Repository/Supplier/Transaksi/Akhir Bulan'))
+WebUI.click(findTestObject('Object Repository/Supplier/Notifikasi/Penawaran - button UPDATE STATUS KIRIM'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Transaksi/Choose end date Feb'))
+WebUI.check(findTestObject('Object Repository/Supplier/Notifikasi/Check Terbayar - sedang proses'))
 
-WebUI.click(findTestObject('Object Repository/Supplier/Transaksi/Button Cari'))
+WebUI.click(findTestObject('Object Repository/Supplier/Notifikasi/Button PROSES'))
+
+WebUI.click(findTestObject('Object Repository/Supplier/Notifikasi/Button Proses Confirmation'))

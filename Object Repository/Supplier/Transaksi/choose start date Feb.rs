@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Check Sedang Proses - Sedang Dikirim</name>
+   <name>choose start date Feb</name>
    <tag></tag>
-   <elementGuidId>03f6a239-ea28-4d5d-a62d-de35a6a915b5</elementGuidId>
+   <elementGuidId>4d977294-cdd4-4f38-b133-a16fdf823e11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//*[@class = 'checkmark'])[1]</value>
+         <value>(//li[@data-id='0:2'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//*[@class = 'checkmark'])[1]</value>
+      <value>(//li[@data-id='0:2'])[1]</value>
    </webElementProperties>
 </WebElementEntity>
